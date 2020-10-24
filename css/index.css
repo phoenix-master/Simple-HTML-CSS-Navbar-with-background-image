@@ -1,0 +1,33 @@
+.menu{
+
+background:#262626;
+width:100%;
+padding:0%;
+
+position:fixed;
+margin:0px;
+top:0;
+}
+
+.menu li{
+	display:inline-block;
+	list-style-type: none;
+}
+
+.menu li a{
+	color:white;
+	text-decoration: none;
+	padding:9px;
+	display:inline-block;
+	font-family: courier;
+	border:solid #00ff00 0.5px;
+}
+
+.menu li a:hover{
+	background: #0099cc;
+}
+
+.active{
+	background: tomato;
+}
+
